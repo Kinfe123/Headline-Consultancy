@@ -1,0 +1,71 @@
+:root {
+    --primary-color:#40c605;
+}
+.color-us {
+    color: var(--primary-color);
+}
+
+.contact-us {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline {
+    border: 1px solid var(--primary-color);
+    margin-bottom: 40px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 69px;
+}
+
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    
+    max-width: fit-content;
+    /* width: 300px; */
+}
+.contact-us-form input {
+    border: 1px solid white;
+    background: transparent;
+    padding: 20px 20px;
+    border-radius: 10px;
+    color: white;
+
+    /* gap: 10px; */
+    
+    /* width: 100%; */
+}
+
+.names {
+    display: flex;
+    flex-direction: row;    
+    gap: 7px;
+
+
+    /* width: 100%;/ */
+}
+
+.text-area{
+    color:white;
+    background: transparent;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}

@@ -1,0 +1,7 @@
+:root {
+    --primary-color:#40c605;
+}
+
+.color-partner {
+    color: var(--primary-color);
+}

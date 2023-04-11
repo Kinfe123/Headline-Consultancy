@@ -1,0 +1,87 @@
+:root {
+    --primary-color:#40c605;
+}
+
+.color-us {
+    color: var(--primary-color);
+}
+
+.why-us {
+    margin: 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.why-us-example {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4px;
+    gap: 5px;
+    margin-top: 20px;
+
+
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline {
+    border: 1px solid var(--primary-color);
+    margin-bottom: 40px;
+    width: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.why-us-example .each-stuff {
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+
+    margin: 10px;
+    /* From https://css.glass */
+    background: rgba(64, 198, 5, 0.83);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(64, 198, 5, 0.54);
+    padding: 30px 30px;
+        border-radius: 39px;
+
+    background: linear-gradient(145deg, #44d405, #3ab205);
+    background: transparent;
+    box-shadow:  10px 10px 20px #216703,
+                -10px -10px 10px #5fff07;
+
+}
+
+.each-stuff h1 {
+    text-align:left;
+}
+.each-stuff .learn-more {
+    background: aliceblue;
+    color: #216703;
+    border: 0px;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.each-stuff {
+   
+}
