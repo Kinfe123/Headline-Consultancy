@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+  font-family: Poppins, "Helvetica Neue";
   -webkit-font-smoothing: antialiased;
+  background-color: black;
+  color: white;
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -11,3 +15,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.nav-bar-container {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+
+}
+
+.nav-bar-container .nav-bar-element { 
+    display: flex;
+    /* flex-direction: column; */
+
+
+}
+.nav-bar-container .nav-bar-element { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.active {
+  padding: 10px 20px;
+  border-radius: 4px;
+  
+  background: rgb(7,7,116);
+  background: linear-gradient(153deg, rgb(3, 3, 83) 11%, rgba(91,27,186,1) 55%);
+}
+ .elements ul { 
+  margin-top: 30px;
+
+    display: flex;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:60px;
+    align-items: center;
+    
+
+    
+}
+ul a {
+  text-decoration: none;
+  color: white;
+
+}
+
+/*Hero Section*/
