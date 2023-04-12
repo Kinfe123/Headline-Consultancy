@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "text":"Study in Japan",
+        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "img": "./assets/canada.png"
+
+    },
+    {
+        "id":1,
+        "text":"Study in Japan",
+        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "img": "./assets/dubai.png"
+
+    },
+    {
+        "id":1,
+        "text":"Study in Japan",
+        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "img": "./assets/italy.png"
+
+    },
+    {
+        "id":1,
+        "text":"Study in Japan",
+        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "img": "../assets/poland.png"
+
+    },
+    {
+        "id":1,
+        "text":"Study in Japan",
+        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "img": "../assets/russian.png"
+
+    },
+    {
+        "id":1,
+        "text":"Study in Japan",
+        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "img": "./assets/turky.png"
+
+    },
+    {
+        "id":1,
+        "text":"Study in Japan",
+        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "img": "./assets/USA.png"
+
+    }
+]

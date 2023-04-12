@@ -1,12 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
 :root {
   --primary-color:#40c605;
+  --gradient-text: linear-gradient(89.97deg, #5ac22e 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #6fd045 -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+  
+
 }
 
 * {
   font-family: 'Poppins';
+}
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 body {
 
@@ -14,7 +30,8 @@ body {
 
   font-family: Poppins, "Helvetica Neue";
   -webkit-font-smoothing: antialiased;
-  background-color: #050505;
+  /* background-color: #050505; */
+  background: var(--color-bg);
   color: white;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -47,6 +64,12 @@ code {
     align-items: center;
     position: relative;
     
+}
+.effect {
+  margin-bottom: 30px;
+  margin-top: -40px;
+  color: var(--gradient-text);
+  font-size: 20px;
 }
 .active {
   padding: 10px 20px;
@@ -105,7 +128,10 @@ ul a:hover {
 
 }
 .hero-container h4 .headline {
-  color: var(--primary-color);
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-container h4 {

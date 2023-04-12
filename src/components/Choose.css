@@ -40,24 +40,29 @@
 }
 
 .why-us-example .each-stuff {
-    border: 1px solid var(--primary-color);
+    border: 1px solid white;
     border-radius: 30px;
 
     margin: 10px;
     /* From https://css.glass */
-    background: rgba(64, 198, 5, 0.83);
+    /* background: rgba(64, 198, 5, 0.83); */
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.6px);
     -webkit-backdrop-filter: blur(7.6px);
     border: 1px solid rgba(64, 198, 5, 0.54);
     padding: 30px 30px;
-        border-radius: 39px;
+        
+    border-radius: 39px;
 
-    background: linear-gradient(145deg, #44d405, #3ab205);
+        
+        /* background:  */
     background: transparent;
-    box-shadow:  10px 10px 20px #216703,
-                -10px -10px 10px #5fff07;
+
+    box-shadow:  2px 1px 1px var(--primary-color),
+
+        -2px -1px 20px var(--primary-color)
+        
 
 }
 

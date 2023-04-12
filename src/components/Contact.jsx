@@ -3,10 +3,11 @@ import './Contact.css'
 function Contact() {
   return (
     <div className='contact-us'>
-        <div className='parent'>
-        <h1>Get Free  <span className='color-us'>Consulting</span> 🍾</h1>
+        <h1>Ping <span className="gradient__text">Us.</span> 🍾</h1>
         <div className="underline"></div>
-        </div>
+   
+        
+        
         <div className='contact-us-form'>
             <input type='email' className='email' placeholder='✉️ Email' />
 
@@ -30,9 +31,10 @@ function Contact() {
 
             <textarea  placeholder='💬 Put your thoughts here' className='text-area'/>
             
-
+            
         </div>
 
+         <button className='btn'> 🪧 Contact Us</button>
 
     </div>
   )

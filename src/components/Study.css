@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+  /* --gradient-text: linear-gradient(89.97deg, #5ac22e 1.84%, #F49867 102.67%); */
+  /* --gradient-text: linear-gradient(89.97deg, #9fe482 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #a3cf90 -13.86%, #F49867 99.55%); */
+  
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
+.study {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr 1fr
+    
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.each-study {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 10px;
+    transition: 0.5s;
+    margin: 20px;
+    border: 1px solid wheat;
+    border-radius: 1rem;
+    background: var(--color-bg);
+    
+    box-shadow:5px 5px 3px var(--color-subtext);
+}
+.each-study:hover {
+
+
+    transform:translateY(-15px);
+    background: linear-gradient(103.22deg, #a3cf90 -13.86%, #F49867 99.55%);
+    
+    /* background:linear-gradient(to right , #fb5283 ,#ff3527); */
+    transition: 1s;
+}
+.each-study img {
+    width: 70px;
+    height: 70px;
+}
+.each-study button {
+    border: none;
+    background-color: var(--color-blog);
+    color: white;
+}
+.underline {
+    margin-right: 80px;
+}
