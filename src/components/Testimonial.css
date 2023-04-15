@@ -199,7 +199,7 @@ main {
 }
 .random-btn {
   margin-top: 0.5rem;
-  background: var(--primary-color);
+background: var(--primary-color);
   color: var(--color-blog);
   font-weight: bolder;
   padding:10px 18px;

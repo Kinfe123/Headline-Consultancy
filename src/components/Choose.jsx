@@ -2,7 +2,7 @@ import React from 'react'
 import './Choose.css'
 function Choose() {
   return (
-    <div className='why-us'>
+    <div className='why-us' id='choose'>
     <div className='parent'>
         <h1> 🙋🏾‍♂️ Why <span className='color-us'>US?</span></h1>
 

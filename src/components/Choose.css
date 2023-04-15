@@ -59,18 +59,20 @@
         /* background:  */
     background: transparent;
 
-    box-shadow:  2px 1px 1px var(--primary-color),
+    box-shadow:  2px 1px 1px var(--color-blog),
 
-        -2px -1px 20px var(--primary-color)
+        -1px -1px 20px var(--color-blog)
         
 
 }
 
 .each-stuff h1 {
     text-align:left;
+    font-size: 30px;
 }
 .each-stuff .learn-more {
     background: aliceblue;
+    font-size: 14px;
     color: #216703;
     border: 0px;
     outline: none;
@@ -89,4 +91,17 @@
 
 .each-stuff {
    
+}
+
+@media screen and (max-width: 770px){
+    .why-us-example {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 660px){
+    .why-us-example {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
