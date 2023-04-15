@@ -94,7 +94,7 @@
 }
 
 .file-upload {
-    /* display: none; */
+    display: none;
 }
 .upload {
     background: var(--color-blog);
