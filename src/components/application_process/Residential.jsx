@@ -22,26 +22,26 @@ const Residential = () => {
         next();
       }}
       validate={(values) => {
-        const errors = {};
-        if (!values.address1) errors.address1 = "Address is required";
-        else if (!/^[a-zA-Z0-9\s]*$/.test(values.address1))
-          errors.address1 =
-            "Address must contain only letters, digits, and spaces";
-        if (!values.city) errors.city = "City is required";
-        else if (!/^[a-zA-Z\s]*$/.test(values.city))
-          errors.city = "City must contain only letters and spaces";
-        if (!values.country) errors.country = "Country is required";
-        else if (!/^[a-zA-Z\s]*$/.test(values.country))
-          errors.country = "Country must contain only letters and spaces";
-        if (!values.state) errors.state = "State is required";
-        else if (!/^[a-zA-Z\s]*$/.test(values.state))
-          errors.state = "State must contain only letters and spaces";
-        if (!values.phone) errors.phone = "Phone number is required";
-        else if (!/^(\+?\d{1,3}\s?)?(\d{10})$/.test(values.phone))
-          errors.phone =
-            "Phone number must be 10 digits with an optional country code";
-        // Return any validation errors that occur
-        return errors;
+        // const errors = {};
+        // if (!values.address1) errors.address1 = "Address is required";
+        // else if (!/^[a-zA-Z0-9\s]*$/.test(values.address1))
+        //   errors.address1 =
+        //     "Address must contain only letters, digits, and spaces";
+        // if (!values.city) errors.city = "City is required";
+        // else if (!/^[a-zA-Z\s]*$/.test(values.city))
+        //   errors.city = "City must contain only letters and spaces";
+        // if (!values.country) errors.country = "Country is required";
+        // else if (!/^[a-zA-Z\s]*$/.test(values.country))
+        //   errors.country = "Country must contain only letters and spaces";
+        // if (!values.state) errors.state = "State is required";
+        // else if (!/^[a-zA-Z\s]*$/.test(values.state))
+        //   errors.state = "State must contain only letters and spaces";
+        // if (!values.phone) errors.phone = "Phone number is required";
+        // else if (!/^(\+?\d{1,3}\s?)?(\d{10})$/.test(values.phone))
+        //   errors.phone =
+        //     "Phone number must be 10 digits with an optional country code";
+        // // Return any validation errors that occur
+        // return errors;
       }}
     >
       {({ handleSubmit, errors }) => {
