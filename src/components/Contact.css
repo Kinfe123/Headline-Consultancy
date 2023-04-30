@@ -84,6 +84,13 @@
 
     /* width: 100%;/ */
 }
+.rview-info {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    color: aliceblue;
+    
+}
 
 .text-area{
     color:white;

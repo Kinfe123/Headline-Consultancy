@@ -1,0 +1,133 @@
+
+
+
+
+.details__wrapper {
+  max-width: 400px;
+  margin: 10em auto;
+}
+
+/* Add margin bottom to all form items */
+.form__item {
+  margin-bottom: 1.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Set display to block and width to 100% for all labels and inputs */
+/* label,
+input {
+  display: block;
+  width: 100%;
+} */
+
+/* Force display to flex and add important tag to override any other declarations */
+.d-flex {
+  display: flex !important;
+}
+ input {
+  border: 1px solid white;
+  background: transparent;
+  padding: 20px 20px;
+  border-radius: 10px;
+  color: white;
+  width: 400px;
+  
+
+  /* gap: 10px; */
+  
+  /* width: 100%; */
+}
+.form__item label {
+  color: rgb(98, 135, 203);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: start ;
+  align-items: start;
+}
+.file-label {
+  /* color:rgb(211, 219, 235); */
+  color: rgb(216, 223, 236);
+  
+}
+.personal h1 {
+  width: 100%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.success , .failure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.documents {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+/* Align items to the end of the container */
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+/* Spread items across the container and leave equal space between them */
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+/* Add a red border color to inputs with an error */
+.input__error input {
+  border-color: red;
+}
+
+/* Add red text color for error feedback */
+.error__feedback {
+  color: red;
+}
+.nextbuttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:20px;
+  /* display: block; */
+}
+
+.btn {
+  /* display: block; */
+}
+.prev {
+  background-color: grey;
+  
+}
+.review-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.review-info p {
+  color: wheat;
+}
+.review-info .personal {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  /* margin: 10px; */
+}

@@ -35,7 +35,7 @@ function Hero() {
               
 
                 <button className='btn' onClick={handleClick}>Get Started!</button>
-                <button className='btn active'>Learn More!</button>
+                <button className='btn active' onClick={() => navigate('/test')}>Learn More!</button>
                 {/* <input type='text' placeholder='share your thoughts'  /> */}
               
             </div>

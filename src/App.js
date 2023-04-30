@@ -15,24 +15,25 @@ import WorkingFeature from './components/WorkingFeature';
 import FormData from './components/SubmissionForm';
 import HomePage from './components/HomePage';
 import SubmissionForm from './components/SubmissionForm';
+// import SignUpApp from './components/application_process/SignInApp';
+import MultiStepForm from './components/application_process/MultiStepForm';
 
 function App() {
   return (
     <div className="App">
 
-        
-    
+        <BrowserRouter>
+            
+            
+            <Routes>
+              
+              <Route path='/' element={<HomePage />} />
+            
+              <Route path='/form' element={<SubmissionForm />} />
+              <Route path='/test' element={<MultiStepForm />} />
 
-<BrowserRouter>
-     
-    
-     <Routes>
-      
-       <Route path='/' element={<HomePage />} />
-       <Route path='/form' element={<SubmissionForm />} />
-
-     </Routes>
-   </BrowserRouter>
+            </Routes>
+          </BrowserRouter>
   
   
     </div>
