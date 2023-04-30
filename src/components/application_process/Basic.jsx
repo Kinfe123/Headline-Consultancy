@@ -20,22 +20,22 @@ const Basic = () => {
       // validate the form fields
       validate={(values) => {
         const errors = {};
-        if (!values.name) errors.name = "Name is required";
-        else if (!/^[a-zA-Z\s]+$/.test(values.name))
-          errors.name = "Name should only contain alphabets and spaces";
-        if (!values.username) errors.username = "Username is required";
-        if (!values.email) errors.email = "Email is required";
-        else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email))
-          errors.email = "Invalid email address";
-          if (!values.phone) errors.phone = "Phone number is required";
-        else if (!/^(\+?\d{1,3}\s?)?(\d{10})$/.test(values.phone))
-          errors.phone =
-            "Phone number must be 10 digits with an optional country code";
-        // Return any validation errors that occur
-        if (/^[0-9]+$/.test(values.username))
-          errors.username =
-            "Username does not require numbers or special characters";
-        return errors;
+        // if (!values.name) errors.name = "Name is required";
+        // else if (!/^[a-zA-Z\s]+$/.test(values.name))
+        //   errors.name = "Name should only contain alphabets and spaces";
+        // if (!values.username) errors.username = "Username is required";
+        // if (!values.email) errors.email = "Email is required";
+        // else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email))
+        //   errors.email = "Invalid email address";
+        //   if (!values.phone) errors.phone = "Phone number is required";
+        // else if (!/^(\+?\d{1,3}\s?)?(\d{10})$/.test(values.phone))
+        //   errors.phone =
+        //     "Phone number must be 10 digits with an optional country code";
+        // // Return any validation errors that occur
+        // if (/^[0-9]+$/.test(values.username))
+        //   errors.username =
+        //     "Username does not require numbers or special characters";
+        // return errors;
       }}
     >
       {({ handleSubmit, errors }) => (

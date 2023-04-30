@@ -47,7 +47,7 @@ const Residential = () => {
       {({ handleSubmit, errors }) => {
         // Render the form using the Ant Design framework
         return (
-          <div className={''}>
+          <div className={'details__wrapper'}>
             <div>
             <h1 className="header">
               Residentail <span className="gradient__text">Details.</span>
