@@ -45,6 +45,7 @@ const Basic = () => {
           Personal <span className="gradient__text">Detail.</span>
         </h1>
         <div className="underline"></div>
+        <p style={{color:"wheat"}}>{currentStep + 1} / 5 </p>
           </div>
           <div className={`form__item ${errors.name && "input__error"}`}>
             <label>Name *</label>

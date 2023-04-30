@@ -6,7 +6,7 @@ import MultiStepFormContext from "./MultiStepContext";
 import './styles.css'
 const Acadamics = () => {
   // get details, setDetails and next from the MultiStepFormContext
-  const {  next , prev , education , setEducation } = useContext(MultiStepFormContext);
+  const {  next , prev , education , setEducation , currentStep} = useContext(MultiStepFormContext);
 
   return (
     <Formik
@@ -47,6 +47,7 @@ const Acadamics = () => {
           Acadamics <span className="gradient__text">Details.</span>
         </h1>
         <div className="underline"></div>
+        <p style={{color:"wheat"}}>{currentStep + 1} / 5 </p>
           </div>
           <div className={`form__item ${errors.name && "input__error"}`}>
             <label>Current School Name *</label>

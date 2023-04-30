@@ -17,6 +17,7 @@ import HomePage from './components/HomePage';
 import SubmissionForm from './components/SubmissionForm';
 // import SignUpApp from './components/application_process/SignInApp';
 import MultiStepForm from './components/application_process/MultiStepForm';
+import PageNotUpdated from './components/PageNotUpdated';
 
 function App() {
   return (
@@ -29,8 +30,10 @@ function App() {
               
               <Route path='/' element={<HomePage />} />
             
-              <Route path='/form' element={<SubmissionForm />} />
-              <Route path='/test' element={<MultiStepForm />} />
+              <Route path='/form' element={<MultiStepForm />} />
+              {/* <Route path='/test' element={<MultiStepForm />} />
+               */}
+               <Route path='*' element={<PageNotUpdated />} /> 
 
             </Routes>
           </BrowserRouter>

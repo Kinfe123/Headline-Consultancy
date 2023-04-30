@@ -6,7 +6,7 @@ import MultiStepFormContext from "./MultiStepContext";
 import './styles.css'
 const Reference = () => {
   // get details, setDetails and next from the MultiStepFormContext
-  const { next  , prev  , reference , setReference} = useContext(MultiStepFormContext);
+  const { next  , prev  , reference , setReference , currentStep} = useContext(MultiStepFormContext);
 
   return (
     <Formik
@@ -48,6 +48,7 @@ const Reference = () => {
          
         </h1>
         <div className="underline"></div>
+        <p style={{color:"wheat"}}>{currentStep + 1} / 5 </p>
           </div>
           <div className={`form__item ${errors.name && "input__error"}`}>
             <label>Guardian Name *</label>

@@ -26,11 +26,11 @@
     align-items: center;
 }
 .contact-us {
-    position: relative;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative !important;
+    margin: 10px m !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center  !important;
     align-items: center;
 
 }
@@ -56,16 +56,16 @@
 
 
 .contact-us-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
     gap: 18px;
     
     max-width: fit-content;
     /* width: 300px; */
 }
 .contact-us-form input {
-    border: 1px solid white;
+    border: 1px solid white ;
     background: transparent;
     padding: 20px 20px;
     border-radius: 10px;

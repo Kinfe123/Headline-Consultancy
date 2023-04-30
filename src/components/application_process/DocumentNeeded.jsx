@@ -148,7 +148,7 @@ const Documents = () => {
 
   if(clicked) {
     setLoading(true)
-    const url = 'http://localhost:4000/send'
+    const url = 'https://headway-api.onrender.com/send'
   if(clicked){
     //body.append('upload', fs.createReadStream(filePath)); // doesn't work
     const form = document.getElementById('form')
@@ -173,7 +173,7 @@ const Documents = () => {
         method:'POST',
         body:formData
       })
-
+    //  console.log('The respinse data is; ' , res)
      
       if(res.status === 200){
         setSuccess(true)

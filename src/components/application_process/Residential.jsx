@@ -7,7 +7,7 @@ import MultiStepFormContext from "./MultiStepContext";
 // Define a component named "Details"
 const Residential = () => {
   // Get "address", "setAddress", "next", and "prev" from MultiStepFormContext using useContext hook
-  const { address, setAddress, next, prev } = useContext(MultiStepFormContext);
+  const { address, setAddress, next, prev , currentStep} = useContext(MultiStepFormContext);
   
   // Render a Formik form that manages state, validation, and submission of form data
   return (
@@ -53,6 +53,8 @@ const Residential = () => {
               Residentail <span className="gradient__text">Details.</span>
             </h1>
             <div className="underline"></div>
+
+              <p style={{color:"wheat"}}>{currentStep + 1} / 5 </p>
             </div>
             <div className={`form__item ${errors.address1 && "input__error"}`}>
               <label>Woreda *</label>

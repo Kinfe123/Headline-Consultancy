@@ -27,7 +27,7 @@ input {
 .d-flex {
   display: flex !important;
 }
- input {
+ .details__wrapper  input {
   border: 1px solid white;
   background: transparent;
   padding: 20px 20px;
@@ -52,6 +52,7 @@ input {
   color: rgb(216, 223, 236);
   
 }
+
 .personal h1 {
   width: 100%;
 }

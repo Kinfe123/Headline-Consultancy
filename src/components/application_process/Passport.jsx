@@ -6,7 +6,7 @@ import MultiStepFormContext from "./MultiStepContext";
 import './styles.css'
 const Passport = () => {
   // get details, setDetails and next from the MultiStepFormContext
-  const {  next , prev , passport , setPassport } = useContext(MultiStepFormContext);
+  const {  next , prev , passport , setPassport , currentStep} = useContext(MultiStepFormContext);
   
   return (
     <div>
@@ -50,6 +50,7 @@ const Passport = () => {
             </h1>
             <div className="underline"></div>
           </div>
+          <p style={{color:"wheat"}}>{currentStep + 1} / 5 </p>
           <div className={`form__item ${errors.name && "input__error"}`}>
             <label> Name *</label>
             <Input name={"name"}  placeholder="Name"/>
