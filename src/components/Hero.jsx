@@ -16,12 +16,13 @@ function Hero() {
             <h4> 🚀 Welcome to <span className='headline'>HeadWay Consultancy</span> for hand to hand growth.</h4>
              <div className='effect'>
              <Typewriter
+             autoStart={true}
       onInit={(typewriter) => {
       typewriter.typeString('Let us make your dreams come true!')
           .callFunction(() => {
           
           })
-          .pauseFor(1500)
+          .pauseFor(1000)
           .deleteAll()
           .callFunction(() => {
             

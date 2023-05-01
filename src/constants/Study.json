@@ -1,49 +1,49 @@
 [
     {
         "id":1,
-        "text":"Study in Japan",
-        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "text":"Study in Canada",
+        "desc":"Apply to study in Canada as an international student, extend your study permit and find out about working while you study or after you graduate.",
         "img": "./assets/canada.png"
 
     },
     {
         "id":1,
-        "text":"Study in Japan",
+        "text":"Study in Dubai",
         "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
         "img": "./assets/dubai.png"
 
     },
     {
         "id":1,
-        "text":"Study in Japan",
+        "text":"Study in Italy",
         "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
         "img": "./assets/italy.png"
 
     },
     {
         "id":1,
-        "text":"Study in Japan",
+        "text":"Study in Poland",
         "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
         "img": "../assets/poland.png"
 
     },
     {
         "id":1,
-        "text":"Study in Japan",
+        "text":"Study in Russia",
         "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
         "img": "../assets/russian.png"
 
     },
     {
         "id":1,
-        "text":"Study in Japan",
+        "text":"Study in Turkey ",
         "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
         "img": "./assets/turky.png"
 
     },
     {
         "id":1,
-        "text":"Study in Japan",
+        "text":"Study in USA",
         "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
         "img": "./assets/USA.png"
 
