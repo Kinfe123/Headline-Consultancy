@@ -39,6 +39,7 @@ const Documents = () => {
   const [file5, setFile5] = useState(null);
   const [file6, setFile6] = useState(null);
   const [file7, setFile7] = useState(null);
+  
   const [loading , setLoading] = useState(false)
   const [error , setError] = useState(false)
   const [success , setSuccess] = useState(false)
@@ -375,6 +376,17 @@ const Documents = () => {
             />
           
             <p>{file7 ? `📁 File name: ${file7[0].name}` :  "📁 no files uploaded yet"}</p>
+            
+            <p className='file-label'>ANY INTERNATIONAL PROFICIENCY CERTIFICATE Like SAT , Duolingo  (if you have multiple , send the pdf of it) </p>
+            
+            <FileUploader
+              multiple={true}
+              handleChange={handleChange7}
+              name="file8"
+              types={fileTypes}
+            />
+          
+            <p>{file8 ? `📁 File name: ${file8[0].name}` :  "📁 no files uploaded yet"}</p>
             
           
             <div className="nextbuttons">
