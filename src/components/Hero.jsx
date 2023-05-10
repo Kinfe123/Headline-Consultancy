@@ -13,7 +13,7 @@ function Hero() {
   return (
     <div className='hero-container'>
         <div className='hero-elements'>
-            <h4> 🚀 Welcome to <span className='headline'>HeadWay Consultancy</span> for hand to hand growth.</h4>
+            <h4> 🚀 Welcome to <span className='headline'>HeadWay Educational and Travel Consultancy</span> for hand to hand growth.</h4>
              <div className='effect'>
              <Typewriter
              autoStart={true}
@@ -36,7 +36,7 @@ function Hero() {
               
 
                 <button className='btn' onClick={handleClick}>Get Started!</button>
-                <button className='btn active' onClick={() => navigate('/learn-more')}>Learn More!</button>
+                <button className='btn active' onClick={() => window.location.href = "https://t.me/headway_educationalconsultancy"}>Learn More!</button>
                 {/* <input type='text' placeholder='share your thoughts'  /> */}
               
             </div>

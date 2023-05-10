@@ -20,7 +20,7 @@ function Study() {
             <div className="each-study">
               <img src={`${each.img}`} alt={`${each.text}`} />
               <h3>{each.text}</h3>
-              <p>{each.desc}</p>
+              <p className="text-left">{each.desc}</p>
               <button className="btn">Learn More</button>
             </div>
           );

@@ -53,6 +53,11 @@ input {
   
 }
 
+.text-left {
+  text-align: left;
+  padding: 0px 10px;
+  
+}
 .personal h1 {
   width: 100%;
 }

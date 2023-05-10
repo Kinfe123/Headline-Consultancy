@@ -2,49 +2,49 @@
     {
         "id":1,
         "text":"Study in Canada",
-        "desc":"Apply to study in Canada as an international student, extend your study permit and find out about working while you study or after you graduate.",
+        "desc":"✔ Apply to study in Canada as an international student, extend your study permit and find out about working while you study or after you graduate.",
         "img": "./assets/canada.png"
 
     },
     {
         "id":1,
-        "text":"Study in Dubai",
-        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "text":"Study in Hungary",
+        "desc":"✔ Hungary is one of the European countries that has invested a lot into higher education, and the results are noticeable. An increasing number of internationals choose to study a Bachelor's or Master's degree at Hungarian universities , With low tuition and living cost",
         "img": "./assets/dubai.png"
 
     },
     {
         "id":1,
         "text":"Study in Italy",
-        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "desc":"✔ Students worldwide come to Italy to study and gain insight into their field through a different cultural lens. Italy boasts a high-quality education system and is home to the University of Bologna, the oldest university in the world.",
         "img": "./assets/italy.png"
 
     },
     {
         "id":1,
         "text":"Study in Poland",
-        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "desc":"✔ Poland is a large country with a rich history, a vibrant culture, and welcoming people. Thanks to recent efforts in internationalisation, Poland is attracting ever more students from abroad. The country offers world-class education at modest tuition fees and remarkably affordable cost of living.",
         "img": "../assets/poland.png"
 
     },
     {
         "id":1,
-        "text":"Study in Russia",
-        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "text":"Study in India",
+        "desc":"✔ India is a land of many discoveries and innovations. The competitive learning environment encourages students to think out-of-the-box and thrive in their academic journey.",
         "img": "../assets/russian.png"
 
     },
     {
         "id":1,
         "text":"Study in Turkey ",
-        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "desc":"✔ Life in Turkey is more affordable than most countries. You can meet your needs, such as accommodation, food and drink, and entertainment at affordable prices. You can stay at the dormitories within or near the University campuses, or rent a house for a reasonable lease.",
         "img": "./assets/turky.png"
 
     },
     {
         "id":1,
         "text":"Study in USA",
-        "desc":"lore, asjajs asja skjsd djasd hs hs dasda sahsfaskjfa dfhdsbfshdbf dfsdhf",
+        "desc":"✔ Quality education, unique curriculum, multicultural environment, and abundant opportunities are just some of the reasons why many International students want to study in the US.",
         "img": "./assets/USA.png"
 
     }

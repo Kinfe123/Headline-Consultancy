@@ -78,6 +78,7 @@
     border: 0px;
     outline: none;
     padding: 10px 20px;
+    cursor: pointer;
     border-radius: 10px;
 
 }

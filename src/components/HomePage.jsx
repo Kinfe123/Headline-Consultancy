@@ -9,6 +9,7 @@ import GalleryShow from './Gallery'
 import Contact from './Contact'
 import Testimonials from './Testimonial'
 import Footer from './Footer'
+import Members from './Member'
 
 function HomePage() {
   return (
@@ -23,10 +24,14 @@ function HomePage() {
       <WorkingFeature />
       
       <Study />
+     
+
+
       <GalleryShow />
 
       <Contact />
       <Testimonials />
+
       <Footer />
 
 

@@ -1,3 +1,8 @@
+:root {
+    --gradient-text: linear-gradient(89.97deg, #5ac22e 1.84%, #F49867 102.67%);
+}
+
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -119,6 +124,13 @@
     text-align: center;
     width: 100%;
 }
+.size {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
 
 .footer-copyright p {
     font-size: 12px;
@@ -126,7 +138,17 @@
     line-height: 15px;
     color: #fff;
 }
-
+.text-findus p {
+    color: white;
+    
+}
+.size a {
+    text-decoration: none;
+    color: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 @media screen and (max-width: 850px) {
     .footer-heading h1 {
         font-size: 44px;

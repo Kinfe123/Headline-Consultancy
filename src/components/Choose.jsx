@@ -1,6 +1,8 @@
 import React from 'react'
 import './Choose.css'
+import { useNavigate } from 'react-router-dom'
 function Choose() {
+    const navigate = useNavigate()
   return (
     <div className='why-us' id='choose'>
     <div className='parent'>
@@ -21,7 +23,7 @@ function Choose() {
                         <p>✅ Full time support</p>
                         <p>✅ Customer Priority</p>
                     </div>
-                    <button className='learn-more'>Learn More 🚶</button>
+                    <button className='learn-more' onClick={() => navigate('/learn-more')}>Learn More 🚶</button>
                     
 
                 </div>
@@ -35,7 +37,7 @@ function Choose() {
                         <p>✅ Trustworthy Staff Members</p>
                         <p>✅ Focusing on client desires</p>
                     </div>
-                    <button className='learn-more'>Learn More 🚶</button>
+                    <button className='learn-more' onClick={() => navigate('/learn-more')}>Learn More 🚶</button>
                     
 
                 </div>
@@ -47,10 +49,10 @@ function Choose() {
                         <p>✅ Different Payment Plan</p>
                         <p>✅ Affordable Packages</p>
                         <p>✅ Discounted Trail For Fresher </p>
-                        <p>✅ Funding Raising For Others</p>
+                        <p>✅ Fund Raising For Others</p>
                         <p>✅ Helping needy</p>
                     </div>
-                    <button className='learn-more'>Learn More 🚶</button>
+                    <button className='learn-more'  onClick={() => navigate('/learn-more')}>Learn More 🚶</button>
                     
 
                 </div>
@@ -68,7 +70,7 @@ function Choose() {
                     <p>✅ Life Experience sharing</p>
                     <p>✅ Expertise Staff Value</p>
                 </div>
-                <button className='learn-more'>Learn More 🚶</button>
+                <button className='learn-more' onClick={() => navigate('/learn-more')}>Learn More 🚶</button>
                 
 
             </div>
@@ -82,7 +84,7 @@ function Choose() {
                     <p>✅ Intense Coach </p>
                     <p>✅ Resources</p>
                 </div>
-                <button className='learn-more'>Learn More 🚶</button>
+                <button className='learn-more' onClick={() => navigate('/learn-more')}>Learn More 🚶</button>
                 
 
             </div>
@@ -97,7 +99,7 @@ function Choose() {
                     <p>✅ Safe Flight and Trips</p>
                     <p>✅ Welcominf Enviremonet </p>
                 </div>
-                <button className='learn-more'>Learn More 🚶</button>
+                <button className='learn-more' onClick={() => navigate('/learn-more')}>Learn More 🚶</button>
                 
 
             </div>

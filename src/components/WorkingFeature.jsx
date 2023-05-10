@@ -7,19 +7,19 @@ import "./WorkingFeature.css";
 const featuresData = [
   {
     title: "Improving end distrusts instantly",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.",
+    text: "You will be exposed to improve both your personal and social skill by exposing yoiur self to such a golden opportunity",
   },
   {
-    title: "Become the tended active",
-    text: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
+    title: "Become culturally talented ",
+    text: "You also become culturally suitable for different kind of culture that you will be experiencing while studying abroad which makes you culturally tolerating person .",
   },
   {
-    title: "Message or am nothing",
-    text: "Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.",
+    title: "Financially Independent and Confortable",
+    text: "You will also be exposed a lot of remote and onsite jobs that you can do while being not distracted from school",
   },
   {
-    title: "Really boy law county",
-    text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..",
+    title: "Accessing  / Moving forward",
+    text: "Once You started a journey studying there , You will be having a chance of being promoted and accessing a lot differnt programs based your current status",
   },
 ];
 
