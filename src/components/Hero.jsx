@@ -13,7 +13,7 @@ function Hero() {
   return (
     <div className='hero-container'>
         <div className='hero-elements'>
-            <h4> 🚀 Welcome to <span className='headline'>HeadWay Educational and Travel Consultancy</span> for hand to hand growth.</h4>
+            <h4> 🚀 Welcome to <span className='headline'>HeadWay Travel and Educational Consultancy</span> for hand to hand growth.</h4>
              <div className='effect'>
              <Typewriter
              autoStart={true}
