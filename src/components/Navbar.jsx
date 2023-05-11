@@ -38,7 +38,7 @@ import './Navbar.css';
 const Navbar = () => {
   const user = useUser()
   const clerk = useClerk()
-  console.log(user)
+  
   const [toggleMenu, setToggleMenu] = useState(false);
   const handleSignIn = async () => {
      const res = await clerk.openSignIn()

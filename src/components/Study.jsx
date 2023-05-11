@@ -2,7 +2,6 @@ import React from "react";
 import studies from "../constants/Study.json";
 import "./Study.css";
 
-console.log(studies);
 function Study() {
   return (
     <div id="study">
