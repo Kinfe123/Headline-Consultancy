@@ -35,7 +35,7 @@ const Footer = () => (
       <div className="footer-links_div">
         <h4>Get in touch</h4>
         <p>📍 Ethiopia , Addis Ababa</p>
-        <p>📞 0910017892 / 0922572829</p>
+        <p>📞 0910017892 / 0933343545</p>
         <p> 📧 headwayconsultancy113@gmail.com</p>
       </div>
     </div>
