@@ -31,12 +31,19 @@
     // </div>
  import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import {SignIn, SignedIn, BrowserClerk,  UserButton, useUser, useSignIn, useClerk , } from '@clerk/clerk-react'
 
 import './Navbar.css';
 
 const Navbar = () => {
+  const user = useUser()
+  const clerk = useClerk()
+  console.log(user)
   const [toggleMenu, setToggleMenu] = useState(false);
-
+  const handleSignIn = async () => {
+     const res = await clerk.openSignIn()
+  
+  }
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
@@ -54,8 +61,16 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+
+        {user.isSignedIn && (<UserButton/>)}
+         {!user.isSignedIn && (
+          <div className='gpt3__navbar-sign'>
+            <p onClick={handleSignIn}>Sign in</p>
+             <button type="button" onClick={handleSignIn}>Sign up</button>
+          </div>
+
+         )}
+        
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
