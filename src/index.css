@@ -140,7 +140,12 @@ ul a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.widthe {
+  /* margin: 80px 0px; */
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
 .hero-container h4 {
   margin-right: 80px;
   margin-left: 80px;

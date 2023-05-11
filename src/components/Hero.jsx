@@ -15,7 +15,7 @@ function Hero() {
   return (
     <div className='hero-container'>
         <div className='hero-elements'>
-            <h4> 🚀 Welcome <span className='gradient__text'> {user.isSignedIn ? user.user.firstName : ""}</span> to <span className='headline'>HeadWay Travel and Educational Consultancy</span> for hand to hand growth.</h4>
+            <h4 className='widthe'> 🚀 Welcome <span className='gradient__text'> {user.isSignedIn ? user.user.firstName : ""}</span> to <span className='headline'>HeadWay Travel and Educational Consultancy</span> for hand to hand growth.</h4>
              <div className='effect'>
              <Typewriter
              autoStart={true}
