@@ -382,9 +382,9 @@ const Documents = () => {
             
             <FileUploader
               multiple={true}
-              handleChange={handleChange7}
+              handleChange={handleChange8}
               name="file8"
-              types={fileTypes}
+              types={fileTypes} 
             />
           
             <p>{file8 ? `📁 File name: ${file8[0].name}` :  "📁 no files uploaded yet"}</p>
