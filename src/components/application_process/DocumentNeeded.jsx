@@ -73,6 +73,7 @@ const Documents = () => {
           <p>PHONE NO.: ${details.phone}  </p>
           <p>GENDER: ${details.gender}</p>
           <p>COUNTRY: ${details.country}</p>
+          <p>REFERRED: ${details.referred}</p>
 
     </div>
     <h3>Address Details 📌 </h3>

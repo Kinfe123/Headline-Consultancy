@@ -23,7 +23,8 @@ const detailsInitialState = {
   phone: "",
   email:"",
   gender: "",
-  country: ""
+  country: "",
+  referred: ""
 };
 
 const addressInitialState = {

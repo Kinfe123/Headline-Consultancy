@@ -1,6 +1,6 @@
 import React from "react";
 import studies from "../constants/Study.json";
-import "./Study.css";
+import "./Study.css"; 
 
 function Study() {
   return (

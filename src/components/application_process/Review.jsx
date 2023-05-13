@@ -45,7 +45,6 @@ const Review = () => {
     next();
   };
 
-  console.log('This is a review : ' , details)
 
   // Render the review form with the user's inputted details
   return (
@@ -67,8 +66,9 @@ const Review = () => {
               
               <p>PHONE NO.: {details.phone}  </p>
               <p>GENDER: {details.gender}</p>
-              <p>GENDER: {details.country}</p>
 
+              <p>COUNTRY: {details.country}</p>
+              <p>REFERRED FROM: {details.referred}</p>
         </div>
         <h3>Address Details 📌 </h3>
           <div className="personal">

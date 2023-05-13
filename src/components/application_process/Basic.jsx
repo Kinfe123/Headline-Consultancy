@@ -93,6 +93,11 @@ const Basic = () => {
             <Input name={"country"} />
             <p className="error__feedback">{errors.name}</p>
           </div>
+          <div className={`form__item ${errors.name && "input__error"}`}>
+            <label>Referred From (e.g Abebe) *</label>
+            <Input name={"referred"} />
+            <p className="error__feedback">{errors.name}</p>
+          </div>
           <div
             className="form__item button__items d-flex justify-content-end"
           >
