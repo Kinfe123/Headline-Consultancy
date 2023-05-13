@@ -94,7 +94,7 @@ const Basic = () => {
             <p className="error__feedback">{errors.name}</p>
           </div>
           <div className={`form__item ${errors.name && "input__error"}`}>
-            <label>Referred From (e.g Abebe) *</label>
+            <label>Referred From (e.g Abebe Kebede) *</label>
             <Input name={"referred"} />
             <p className="error__feedback">{errors.name}</p>
           </div>
