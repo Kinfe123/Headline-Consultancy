@@ -30,7 +30,8 @@ function HomePage() {
       <GalleryShow />
 
       <Contact />
-      <Testimonials />
+      {/* <Testimonials />  */}
+      
 
       <Footer />
 
