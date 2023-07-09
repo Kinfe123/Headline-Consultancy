@@ -36,7 +36,7 @@ const Footer = () => (
         <h4>Get in touch</h4>
         <p>📍 Ethiopia , Addis Ababa</p>
         <p>📞 0910017892 / 0933343545</p>
-        <p> 📧 headwayconsultancy113@gmail.com</p>
+        <p> 📧 headway-consultancy@outlook.com</p>
       </div>
     </div>
       <div className='text-findus'>
